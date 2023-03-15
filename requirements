@@ -1,0 +1,22 @@
+//minimum requirements
+1. Navigation bar
+2. box with search item
+3. minimum 3 items of activity(6 items)
+4. client slider
+5. frequently ask questions
+6. footer
+7. make the site responsive for mobile deivces
+8. Contact us
+9. for mobile view menu items should be collaps 
+10. using css framework do the assignment 
+11. deploy in netlify
+
+//bonus marks
+1. click "free consultation" button open a  modal
+2. questions ->
+	1. difference between flexbox and grid
+	2. what is the purpose of media queri?
+	3. what is css box model and how does it works?
+	4. what is symantic tag?
+3. Meaningfull 6 commits.
+
