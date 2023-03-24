@@ -59,24 +59,6 @@
                             <i class="fa-solid fa-angle-right"></i></a>
                     </li>
 
-
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Link</a>
-                    </li> -->
                 </ul>
             </div>
             <div>
@@ -101,13 +83,13 @@
             <div class="card-img-overlay p-0">
                 <img src="./images/Rectangle 5.png" class="card-img" alt="...">
                 <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
-                    <div class=" text-center ">
+                    <div class=" text-center w-50">
                         <h5 class="card-title">We Provide Effective
                             Legal Solutions</h5>
-                        <p class="card-text text-muted">This is a wider card with supporting text below as a natural
-                            lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
+                        <p class="card-text text-light">"If it were not for injustice, man would not know justice." "It
+                            is a denial of justice not to stretch out a helping hand to the fallen; that is the common
+                            right of humanity." "Blessed are they who maintain justice, who constantly do what is
+                            right."</p>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -483,12 +465,27 @@
             </div>
             <div class="col">
                 <div class="ps-lg-3">
-                    <input type="text" hint="Krishna" placeholder="Name" class="form-control mb-4" id="">
-                    <input type="email" placeholder="Email" class="form-control mb-4" id="">
-                    <input type="text" placeholder="Subject" class="form-control mb-4" id="">
-                    <textarea type="text" placeholder="Your Message" class="form-control mb-4" id=""
-                        style="height: 200px;"></textarea>
+                    <div class="form-floating">
+                        <input type="text" hint="Krishna" placeholder="Name" class="form-control mb-4" id="name">
+                        <label for="name">Name</label>
+                    </div>
 
+                    <div class="form-floating">
+                        <input type="text" hint="Krishna" placeholder="Name" class="form-control mb-4" id="name">
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" placeholder="Subject" class="form-control mb-4" id="Subject">
+                        <label for="Subject">Subject</label>
+                    </div>
+
+
+                    <div class="form-floating">
+                        <textarea type="text" placeholder="Your Message" class="form-control mb-4" id="message"
+                            style="height: 200px;"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
                     <button type="submit" class="w-100 btn btn-outline-success">Sign in</button>
                 </div>
             </div>
@@ -496,15 +493,68 @@
 
 
 
-
-
-
-
-
-
-
     </section>
     <!-- Contact us end -->
+
+
+
+
+
+    <!-- footer started -->
+    <section class="p-5 bg-dark text-light">
+        <div class="row row-cols-4 p-5">
+            <div class="col d-flex flex-column   align-items-center">
+                <div class="p-5">
+                    <img src="./images/logo.png" class="mb-3" alt="logo" /> </br>
+                    "It is a denial of justice not to stretch out a helping hand to the fallen; that is the common right
+                    of humanity."
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="p-5">
+                    <h4 class="mb-4">Usefull Link</h4>
+                    <p>Homes</p>
+                    <p>About Us</p>
+                    <p>Cases</p>
+                    <p>Blog</p>
+                    <p>Contact Us</p>
+                    
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="p-5">
+                    <h4 class="mb-4">Contact Us</h4>
+                    555 4th 5t NW, Washington
+                    <br>
+                    DC 20530, United States
+                    <br><br>
+                    +88 01750 000 000<br>
+                    +88 01750 000 000<br><br>
+                    info@gmail.com<br>info@gmail.com
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="p-5">
+                    <h4 class="mb-4">Subscribe</h4>
+                    Subscribe for our latest &
+                    Articles. We Won’t Give You
+                    Spam Mails
+
+
+                    <div class="input-group my-3">
+                        <input type="Email" class="form-control" placeholder="Email"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-success" type="button" id="button-addon2">Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
 
 
 
